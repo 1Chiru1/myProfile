@@ -502,3 +502,8 @@ body.light-mode {
     font-size: 24px;
     cursor: pointer;
   }
+
+  button {
+    all: unset;
+    cursor: pointer;
+  }

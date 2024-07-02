@@ -388,3 +388,8 @@ body.dark-mode {
   color: #333;
   /* dark mode icon color */
 }
+
+button {
+  all: unset;
+  cursor: pointer;
+}

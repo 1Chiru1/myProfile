@@ -25,6 +25,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
         integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
         </script>
+    <script src="script.js" defer></script>
 </head>
 
 <body class="container-fluid body_section">
@@ -51,7 +52,7 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link headerachor" id="dark-mode-toggle">
-                          <i class="fas fa-moon"></i> Mode
+                            <i class="fas fa-moon"></i> Mode
                         </a>
                     </li>
                 </ul>
@@ -87,7 +88,8 @@
     <section>
         <div class="second-section">
             <h1 class="connect">Let's connect and build future together!</h1>
-            <a class="sayhello" href="https://www.linkedin.com/in/chiranjeevi-n/">Say Hello <span class="wave">👋</span></a>
+            <a class="sayhello" href="https://www.linkedin.com/in/chiranjeevi-n/">Say Hello <span
+                    class="wave">👋</span></a>
             <div class="col-lg-6 connect-image">
                 <img class="connection" src="Image/connection.svg" alt="">
             </div>
@@ -95,20 +97,5 @@
     </section>
     <footer class=footer>Made with ❤️ by Chiranjeevi</footer>
 </body>
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-<script>
-  const darkModeToggle = document.getElementById('dark-mode-toggle');
-  const darkModeIcon = document.getElementById('dark-mode-icon');
-  darkModeToggle.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
-    document.body.classList.toggle('light-mode');
-    darkModeIcon.classList.toggle('fa-moon');
-    darkModeIcon.classList.toggle('fa-sun');
-  });
-</script>
+
 </html>
