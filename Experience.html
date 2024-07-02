@@ -30,7 +30,6 @@
 <body class="container-fluid body_section">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light ">
-            <!-- <a class="navbar-brand brand-name" href="#">Chiranjeevi N</a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -42,16 +41,18 @@
                         <a class="nav-link headerachor" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link headerachor" href="Experience.html">Work Experience</a>
+                        <a class="nav-link headerachor" href="Experience.html">Experience</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link headerachor" href="skill.html">Skills</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link headerachor" href="Project.html">Projects</a>
+                        <a class="nav-link headerachor" href="contact.html">Contact Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link headerachor" href="contact.html">Contact Me</a>
+                        <a class="nav-link headerachor" id="dark-mode-toggle">
+                            <i class="fas fa-moon"></i> Mode
+                        </a>
                     </li>
                 </ul>
         </nav>
@@ -64,10 +65,13 @@
             <div class="col-lg-6 col-md project-heading">
                 <p class="p-text">
                     💥 Working as an Java backend developer to British telecom client to design, develop and transform
-                    their OSS inventory systems.</p>
+                    their OSS inventory systems.
+                </p>
                 <p class="p-text">
-                    💥 Understand the design requirements, analyse, prepare feature specifications and implement the
-                    requirements and deliver it to the QA team within the sprint. </p>
+                    💥 My work invovles understanding the design requirements, analyse, prepare feature specifications
+                    and implement the
+                    requirements and deliver it to the QA team within the sprint.
+                </p>
                 <p class="p-text">
                     💥 Address the issue found during development, unit testing, deployment and production phases by
                     Interacting with developers, testers, designers, ASG teams to find solutions and delivered the fix.
@@ -75,7 +79,8 @@
                 <p class="p-text">
                     💥 Enhanced the application features by optimising the overall performance, reliability using code
                     coverage and quality tools like SonarQube and writing test cases using JUnit & effectively fix the
-                    bugs raised.</p>
+                    bugs raised.
+                </p>
             </div>
         </div>
     </section>
@@ -220,5 +225,24 @@
     </section>
     <footer class=footer>Made with ❤️ by Chiranjeevi</footer>
 </body>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+<script>
+    const darkModeToggle = document.getElementById('dark-mode-toggle');
+    const darkModeIcon = document.getElementById('dark-mode-icon');
+    darkModeToggle.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+        document.body.classList.toggle('light-mode');
+        darkModeIcon.classList.toggle('fa-moon');
+        darkModeIcon.classList.toggle('fa-sun');
+    });
+</script>
 
 </html>
