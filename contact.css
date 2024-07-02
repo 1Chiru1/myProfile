@@ -60,10 +60,10 @@ a {
 }
 
 .Profilepic {
-  border-radius: 100%;
+  border-radius: 50%;
   width: 300px;
   height: 300px;
-  border: 10px solid;
+  border: 5px solid;
   border-color: #6c63ff;
   box-shadow: 0 10px 30px -15px rgba(0, 0, 0, 0.897);
   ;
