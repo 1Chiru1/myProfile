@@ -267,13 +267,16 @@ footer {
 }
 
 .p-text {
+  margin: auto;
   font-size: 18px;
   color: #868e96;
+  text-align: right;
 }
 
 .Features-paragraph {
   margin-top: 8px;
   margin-bottom: 8px;
+  text-align: left;
 }
 
 .Data-Analytic {
