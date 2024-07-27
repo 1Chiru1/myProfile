@@ -56,8 +56,8 @@ a {
 }
 
 .Programming {
-  width: 100%;
-  height: 100%;
+  width: 90%;
+  height: 90%;
 }
 
 .Coding {
@@ -267,7 +267,7 @@ footer {
 }
 
 .p-text {
-  margin: auto;
+  margin: right;
   font-size: 18px;
   color: #868e96;
   text-align: right;
